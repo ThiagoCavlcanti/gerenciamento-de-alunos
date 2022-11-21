@@ -91,7 +91,7 @@ class Aluno {
     tdNota3.textContent =  nota3;
 
     let tdMedia = document.createElement('td');
-    tdMedia.textContent = ((this.nota1 + this.nota2 + this.nota3) / 3).toFixed(2);;
+    tdMedia.textContent = ((nota1 + nota2 + nota3) / 3).toFixed(2);
 
     
     let tdBotao = document.createElement('button');
