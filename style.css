@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script&family=Poppins:ital@0;1&family=Righteous&family=Roboto:wght@300;400&display=swap');
+
+* {
+    font-family: 'poppins';  
+}
+
+
+.formulario{
+    background-color: #DCEBE6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-top:8px solid #cfcfcf;
+    border-left:8px solid #cfcfcf;
+    border-right:8px solid #696969; 
+    border-bottom:8px solid #696969; 
+    border-collapse:collapse; 
+    padding: 20px;
+}
+
+.formulario legend {
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.formulario input {
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+h1{
+    text-align: center;
+    }
+    
+    table, th, td {
+    border: 1px solid black;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    }
+    
+    th, td, tbody{
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+    }
+
+.botao {
+  background: red;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'poppins';
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  padding: 12px 14px;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.botao:hover,
+.botao:focus{
+    background: rgb(197, 21, 21);
+}
